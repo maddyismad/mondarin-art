@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      .container-items {
+        height: 748px;
+        width: 748px;
+        display: grid;
+        grid-template-columns: 329px 198px 162px 59px;
+        grid-template-rows: 423px 139px 155px 31px;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+      }
+      .grey {
+        background-color: #f0f1ec;
+      }
+      .grey1 {
+        height: 414px;
+        width: 419px;
+        border-bottom: 9px solid #000000;
+      }
+      .grey2 {
+        height: 294px;
+        width: 320px;
+        border-right: 9px solid #000000;
+        border-bottom: 9px solid #000000;
+        grid-column: 1 / 2;
+      }
+      .grey3 {
+        height: 294px;
+        width: 360px;
+      }
+      .grey4 {
+        height: 155px;
+        width: 50px;
+        border-left: 9px solid #000000;
+        border-top: 9px solid #000000;
+        grid-column: 4/5;
+      }
+      .grey5 {
+        height: 20px;
+        width: 320px;
+        grid-row: 4/5;
+        grid-column: 1/2;
+        border-top: 9px solid #000000;
+        border-right: 9px solid #000000;
+      }
+      .grey6 {
+        height: 29px;
+        width: 50px;
+        grid-row: 4 /5;
+        grid-column: 4 / 5;
+        border-left: 9px solid #000000;
+      }
+      .yellow {
+        background-color: #f9d01e;
+        height: 20px;
+        width: 198px;
+        border-top: 9px solid #000000;
+        grid-row: 4 /5;
+      }
+      .red {
+        background-color: #e72f24;
+        height: 414px;
+        width: 320px;
+        border-right: 9px solid #000000;
+        border-bottom: 9px solid #000000;
+      }
+      .blue {
+        background-color: #004592;
+        height: 130px;
+        width: 50px;
+        border-left: 9px solid #000000;
+        border-bottom: 19px solid #000000;
+        grid-column: 4 / 5;
+      }
+      .darkgrey {
+        background-color: #232629;
+        height: 20px;
+        width: 162px;
+        border-top: 9px solid #000000;
+        border-left: 9px solid #000000;
+      }
+
+      /*
+      Write your CSS here
+      Gap Colour: #000
+      White: #F0F1EC
+      Red: #E72F24
+      Black: #232629
+      Blue: #004592
+      Yellow: #F9D01E
+
+      For dimensions, see dimensions.png image.
+      HINT: Remember you can't change the properties of grid lines.
+      But grid lines are transparent!
+      */
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container-items">
+        <div class="red"></div>
+
+        <div class="grey grey1"></div>
+        <div class="grey grey2"></div>
+
+        <div class="grey grey3"></div>
+
+        <div class="blue"></div>
+
+        <div class="grey grey4"></div>
+
+        <div class="yellow"></div>
+
+        <div class="darkgrey"></div>
+        <div class="grey grey5"></div>
+        <div class="grey grey6"></div>
+      </div>
+    </div>
+  </body>
+</html>
